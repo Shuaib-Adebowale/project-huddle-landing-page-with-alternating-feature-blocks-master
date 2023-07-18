@@ -190,7 +190,8 @@ header{
     background-color:   hsl(192, 100%, 9%);
     position: relative;
     z-index: -1;
-   margin-top: -100px;
+   margin: -100px 0;
+   padding: 0 60px;
 }
 .huddle-1{
     display: flex;
@@ -212,6 +213,9 @@ header{
     font-size: 40px;
     font-family:'Open Sans';
     font-weight: 700;
+}
+.fa-message-dot{
+    width: 50%;
 }
 
 /* ICON-LOCATION */

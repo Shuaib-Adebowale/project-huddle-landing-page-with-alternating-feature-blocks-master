@@ -197,6 +197,9 @@ header{
     justify-content: space-between;
     padding: 250px 20px 0;
 }
+.huddle-2{
+    width: 20%;
+}
 .huddle-3{
     width: 150px;
     color: #fff;
@@ -217,7 +220,7 @@ header{
     margin: 30px 0 0 0;
 }
 .icon-location p{
- margin: 0 0 0 20px;
+ margin: 0 15px;
  line-height: 1;
  color: #fff;
  font-family: 'Open Sans';
@@ -255,8 +258,11 @@ header{
 
 
 /*  LOREM  */
+.lorem{
+    margin: 80px 0;
+}
 .lorem li{
-    margin: 0 0 40px;
+    margin: 0 0 25px;
     list-style-type: none;
 }
 .lorem a{
@@ -266,8 +272,11 @@ header{
 }
 
 /* CONTACT */
+.contact{
+    margin: 80px 0;
+}
 .contact li{
-    margin: 0 0 40px;
+    margin: 0 0 25px;
     list-style-type: none;
 }
 .contact a{
@@ -278,7 +287,7 @@ header{
 
 /* -ICON  */
 .icon{
-    color: #fff;
+    margin: 120px 0;
 }
 .fa-brands{
     border-radius: 60%;
@@ -288,8 +297,8 @@ header{
     height: 40px;
     text-align: center;
     padding: 10px;
+    color: #fff;
 }
-
 
 /*  */
 h4{
@@ -434,7 +443,9 @@ h4{
         padding: 150px 0 0;
         margin: 20px;
       }
-
+      .huddle-2{
+        width: 80%;
+      }
       /*  LOREM  */
       .lorem{
         margin: 40px 0;
